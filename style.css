@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+
+body{
+    background-color:  #BF3136;
+
+}
+nav {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    margin: 0 10px;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+    
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+h1{
+  
+  color: white;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
